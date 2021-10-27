@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Header from "./components/layout/Header";
 
+import MainNavigation from "./components/layout/MainNavigation";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -9,7 +9,7 @@ import Signup from "./pages/Signup";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
+      <MainNavigation />
       <main>
         <Switch>
           <Route path="/" exact>

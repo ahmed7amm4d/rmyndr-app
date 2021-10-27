@@ -1,0 +1,26 @@
+.drawer-form {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drawer-form-input {
+  outline: none;
+  border: none;
+  font-family: inherit;
+  border-radius: 5px;
+  text-indent: 5px;
+  padding: 0.4rem;
+}
+
+.drawer-form-button {
+  outline: none;
+  border: none;
+  font-family: inherit;
+  border-radius: 5px;
+  padding: 0.4rem;
+  margin-left: 0.2rem;
+  background: linear-gradient(to bottom left, #fea6a3, #cd69e0);
+  cursor: pointer;
+}

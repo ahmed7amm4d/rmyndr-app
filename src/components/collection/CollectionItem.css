@@ -1,0 +1,30 @@
+.collection-item {
+  width: 100%;
+}
+
+.collection-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 4rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+.collection-item-link:hover {
+  background: #272732;
+}
+
+.collection-item-link-text {
+  color: #bcbcbf;
+  margin-left: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
+.collection-item-link-svg {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  color: #fc76a1;
+  margin-left: 1rem;
+}

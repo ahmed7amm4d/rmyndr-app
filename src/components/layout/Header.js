@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 import "./Header.css";
 import { HiMenuAlt2 } from "react-icons/hi";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className="header">
-      <span className="header-menu">
+      <span className="header-menu" onClick={props.onMenuClick}>
         <HiMenuAlt2 className="header-menu-btn" />
       </span>
       <h1 className="header-title">
