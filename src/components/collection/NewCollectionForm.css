@@ -1,8 +1,8 @@
 .drawer-form {
-  margin-top: 1rem;
+  margin-top: 1.2rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .drawer-form-input {
@@ -12,6 +12,7 @@
   border-radius: 5px;
   text-indent: 5px;
   padding: 0.4rem;
+  width: 10rem;
 }
 
 .drawer-form-button {

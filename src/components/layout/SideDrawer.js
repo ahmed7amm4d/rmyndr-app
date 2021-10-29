@@ -31,7 +31,7 @@ const SideDrawer = (props) => {
 
   const submitFormHandler = (event) => {
     event.preventDefault();
-    const newCollection = { id: Math.random().toLocaleString, name: inputText };
+    const newCollection = { id: Math.random(), name: inputText };
     setCollections([...collections, newCollection]);
     setIsFormShown(false);
   };
